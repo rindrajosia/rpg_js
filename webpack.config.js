@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ["**/*", "!index.html"],
+      cleanOnceBeforeBuildPatterns: ['**/*', '!index.html'],
     }),
     new HtmlWebpackPlugin({
       title: 'Rocket Mouse',
