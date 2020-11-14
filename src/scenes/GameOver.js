@@ -10,7 +10,6 @@ export default class GameOver extends Phaser.Scene {
   }
 
   create() {
-    Api.setScores(this.sys.game.globals.data);
     const { width, height } = this.scale;
     const x = width * 0.5;
     const y = height * 0.5;
@@ -63,6 +62,7 @@ export default class GameOver extends Phaser.Scene {
     this.input.keyboard.once('keydown-SPACE', () => {
       this.scene.stop(SceneKeys.GameOver);
       this.scene.stop(SceneKeys.Game);
+      Api.setScores(this.sys.game.globals.data);
       this.scene.start(SceneKeys.TitleScene);
     });
   }
