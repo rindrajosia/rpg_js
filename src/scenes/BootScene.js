@@ -1,3 +1,4 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
 import Phaser from 'phaser';
 import bootLogo from '../assets/boot/zenva_logo.png';
 import SceneKeys from '../consts/SceneKeys';
