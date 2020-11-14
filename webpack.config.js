@@ -5,9 +5,11 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ["**/*", "!index.html"],
+    }),
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Rocket Mouse',
     }),
   ],
   output: {

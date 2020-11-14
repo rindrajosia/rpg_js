@@ -60,14 +60,14 @@ Give a ⭐️ if you like this project!
 
 # Screenshot
 
+* Menu
+* ![screenshot](./docx/1.png)
+
+* Leaderboard
+* ![screenshot](./docx/2.png)
+
 * Player name
-* ![screenshot](./1.png)
-
-* Board game
-* ![screenshot](./2.png)
-
-* Testing
-* ![screenshot](./screen.png)
+* ![screenshot](./docx/3.png)
 
 
 ## Authors
