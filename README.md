@@ -53,7 +53,7 @@ Run testing cases and Jest will print messages depending on the result
 
   $ npm run test
 
-## See a live demo [Here](https://raw.githack.com/rindrajosia/tictactoe-js/feature/index.html)
+## See a live demo [Here](https://amazing-tereshkova-6aa924.netlify.app/)
 
 ## Show your support
 Give a ⭐️ if you like this project!
@@ -81,3 +81,5 @@ Give a ⭐️ if you like this project!
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rindrajosia/rpg_js/issues).
