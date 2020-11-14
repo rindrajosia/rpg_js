@@ -17,16 +17,32 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ],
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.(mp3|wav|mpe?g|ogg)?$/i,
+        use: 'file-loader',
       },
     ],
   },
