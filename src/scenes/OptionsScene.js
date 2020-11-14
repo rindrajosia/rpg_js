@@ -1,3 +1,4 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
 import Phaser from 'phaser';
 import SceneKeys from '../consts/SceneKeys';
 import StarterKeys from '../consts/StarterKeys';
@@ -6,10 +7,6 @@ import Button from '../objects/Button';
 export default class OptionsScene extends Phaser.Scene {
   constructor() {
     super(SceneKeys.OptionsScene);
-  }
-
-  preload() {
-
   }
 
   create() {
