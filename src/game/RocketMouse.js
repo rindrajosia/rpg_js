@@ -1,3 +1,4 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
 import Phaser from 'phaser';
 import TextureKeys from '../consts/TextureKeys';
 import AnimationKeys from '../consts/AnimationKeys';
