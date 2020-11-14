@@ -69,8 +69,8 @@ export default class LeaderBoardScene extends Phaser.Scene {
           thumb: this.rexUI.add.roundRectangle(0, 0, 0, 0, 13, 0x7b5e57),
         },
       }).layout().drawBounds(this.add.graphics(), COLOR_DARK);
-      let arr = [...response];
-      if (this.sys.game.globals.data != null){
+      const arr = [...response];
+      if (this.sys.game.globals.data != null) {
         arr.push(this.sys.game.globals.data);
       }
       textArea.setText(Score.allScore(response));
