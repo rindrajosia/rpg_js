@@ -18,7 +18,6 @@ export default class TitleScene extends Phaser.Scene {
   }
 
 
-
   create() {
     this.gameButton = new Button(this, this.sys.game.config.width / 2, this.sys.game.config.height / 2 - 100, StarterKeys.BlueButton2, StarterKeys.BlueButton3, 'Play', SceneKeys.PlayerScene);
 

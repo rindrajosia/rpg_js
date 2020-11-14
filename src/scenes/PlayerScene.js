@@ -47,7 +47,6 @@ export default class PlayerScene extends Phaser.Scene {
     });
 
     name.setInteractive().on('pointerdown', () => {
-      console.log(name.text);
       if (name.text === 'Your name') {
         name.text = '';
       }
@@ -61,7 +60,7 @@ export default class PlayerScene extends Phaser.Scene {
 
     this.menuButton = new Button(this, 400, 550, StarterKeys.BlueButton2, StarterKeys.BlueButton3, 'Menu', SceneKeys.TitleScene);
 
-    this.startButton.on('pointerdown', (pointer) => {
+    this.startButton.on('pointerdown', () => {
       if (name.text !== 'Your name' && name.text !== '') {
         this.sys.game.globals.player.setName(name.text);
         this.scene.start(SceneKeys.Preloader);
