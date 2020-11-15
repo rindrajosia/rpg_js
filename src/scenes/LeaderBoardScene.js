@@ -70,10 +70,7 @@ export default class LeaderBoardScene extends Phaser.Scene {
         },
       }).layout().drawBounds(this.add.graphics(), COLOR_DARK);
       const arr = [...response];
-      if (this.sys.game.globals.data != null) {
-        arr.push(this.sys.game.globals.data);
-      }
-      textArea.setText(Score.allScore(response));
+      textArea.setText(Score.allScore(arr));
     }).catch(() => {
       loading.destroy();
       this.add.text(265, 240, 'Problem to connect with API \n Try again later', { color: 'red', fontSize: '20px ' });

@@ -25,6 +25,7 @@ export default class Game extends Phaser.Scene {
   }
 
   create() {
+    Score.resetScore();
     const { width } = this.scale;
     const { height } = this.scale;
     this.background = this.add.tileSprite(0, 0, width, height, TextureKeys.Background)
@@ -147,6 +148,5 @@ export default class Game extends Phaser.Scene {
       user: this.sys.game.globals.player.getName(),
       score: Score.getScore(),
     };
-    Score.resetScore();
   }
 }
