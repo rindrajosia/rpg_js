@@ -53,7 +53,7 @@ Run testing cases and Jest will print messages depending on the result
 
   $ npm run test
 
-## See a live demo [Here](https://amazing-tereshkova-6aa924.netlify.app/)
+## See a live demo [Here](https://salty-earth-40680.herokuapp.com/)
 
 ## Show your support
 Give a ⭐️ if you like this project!
