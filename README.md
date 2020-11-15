@@ -15,9 +15,9 @@ The score starts with 1 by default.
 
 ## Design Credits
 
-* House Background art from Game Art Guppy.
+* House Background art from [Game Art Guppy]( https://www.gameartguppy.com/).
 
-* Rocket Mouse art from Game Art Guppy.
+* Rocket Mouse art from [Game Art Guppy]( https://www.gameartguppy.com/).
 
 ## Requirements
 
