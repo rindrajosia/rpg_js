@@ -11,8 +11,7 @@
     "watch": "webpack --watch",
     "build": "webpack",
     "dev": "webpack --watch & live-server --port=8085 --open=dist ",
-    "heroku-postbuild": "npm install --production=false",
-    "postinstall": "NODE_ENV=production webpack --config ./config/webpack.config.js",
+    "heroku-postbuild": "ng build --prod",
     "start": "node server.js"
   },
   "repository": {
