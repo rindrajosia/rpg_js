@@ -11,7 +11,6 @@
     "watch": "webpack --watch",
     "build": "webpack",
     "dev": "webpack --watch & live-server --port=8085 --open=dist ",
-    "heroku-postbuild": "ng build --prod",
     "start": "node server.js"
   },
   "repository": {
