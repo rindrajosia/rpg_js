@@ -17,7 +17,6 @@ export default class Game extends Phaser.Scene {
     this.laserObstacle = null;
     this.mouse = null;
     this.coins = null;
-    this.scoreClass = null;
   }
 
   constructor() {
