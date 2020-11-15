@@ -1,7 +1,10 @@
 {
   "name": "rpg_js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Phaser game",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "scripts": {
     "test": "jest",
