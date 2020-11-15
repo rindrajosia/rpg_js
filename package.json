@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest",
     "watch": "webpack --watch",
-    "dev": "webpack --mode development",
     "build": "webpack",
-    "start": "webpack --watch & live-server --port=8085 --open=dist "
+    "dev": "webpack --watch & live-server --port=8085 --open=dist ",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,8 @@
     "webpack-cli": "^4.2.0"
   },
   "dependencies": {
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1",
     "phaser3-rex-plugins": "^1.1.31"
   }
 }
