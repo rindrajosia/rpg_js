@@ -1,13 +1,13 @@
 # Jet Pack Mouse
 This project consists of building a video game using JavaScript (ES6) and the Phaser game engine.
 ## Game Design Document
-This game is an infinite runner game based like Jetpack [jetpack joyride](https://fr.wikipedia.org/wiki/Jetpack_Joyride).
+This game is an infinite runner game based like [jetpack joyride](https://fr.wikipedia.org/wiki/Jetpack_Joyride).
 The goal is to keep our Jetpack-wearing mouse alive for as long as possible collecting coins and avoiding obstacles.
 The score starts with 1 by default.
 
 ## How to play
 * You can Switch on the jet pack and fly up with the up arrow key on your keyboard.
-* Our hero can fly backwards by using the left arrow key on your keyboard.
+* Our hero can fly backward by using the left arrow key on your keyboard.
 * Our hero can increase his speed by using the right arrow key on your keyboard.
 * Our hero can fly down by using the down arrow key on your keyboard.
 * You can restart the game by pressing SPACE on your keyboard when the game is over.
@@ -15,9 +15,9 @@ The score starts with 1 by default.
 
 ## Design Credits
 
-* House Background art from Game Art Guppy.
+* House Background art from [Game Art Guppy]( https://www.gameartguppy.com/).
 
-* Rocket Mouse art from Game Art Guppy.
+* Rocket Mouse art from [Game Art Guppy]( https://www.gameartguppy.com/).
 
 ## Requirements
 
