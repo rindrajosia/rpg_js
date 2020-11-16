@@ -10,6 +10,10 @@
     "build": "webpack",
     "start": "webpack --watch & live-server --port=8085 --open=dist "
   },
+  "jest": {
+    "automock": false,
+    "setupFiles": ["./setupJest.js"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rindrajosia/rpg_js.git"
@@ -34,6 +38,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3",
     "json-loader": "^0.5.7",
     "live-server": "^1.2.1",
     "phaser": "^3.24.1",
