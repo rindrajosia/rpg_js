@@ -69,6 +69,9 @@ Give a ⭐️ if you like this project!
 * Player name
 * ![screenshot](./docx/3.png)
 
+* Preview
+* ![screenshot](./docx/anim.gif)
+
 
 ## Authors
 
